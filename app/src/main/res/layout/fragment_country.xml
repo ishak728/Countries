@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="selectedCountry"
+            type="com.ishak.countriesapp.model.Country" />
+
+    </data>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.CountryFragment">
+
+    <ImageView
+        android:id="@+id/country_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:downloadUrl="@{selectedCountry.flag}"
+        android:minHeight="200dp"
+        android:paddingTop="9dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/country_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country_image"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:text="@{selectedCountry.country_name}"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/country_capital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country_name"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:text="@{selectedCountry.country_capital}"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/country_region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country_capital"
+        android:scaleType="fitCenter"
+        android:textSize="30dp"
+        android:text="@{selectedCountry.country_region}"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/country_currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country_region"
+        android:scaleType="fitCenter"
+        android:textSize="30dp"
+        android:text="@{selectedCountry.country_currency}"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/country_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country_currency"
+        android:scaleType="fitCenter"
+        android:textSize="30dp"
+        android:text="@{selectedCountry.country_language}"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
+
+</layout>
