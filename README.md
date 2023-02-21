@@ -63,10 +63,6 @@ SOFTWARE.
 
 ```
 ## CONTACT
-
-
-
-
-
-
 [LinkedIn](https://www.linkedin.com/in/ishak-erdo%C4%9Fan-332b77233/)
+
+[Instagram](https://www.instagram.com/ishakerdogan728/)
