@@ -31,4 +31,34 @@ this is feed fragment.all pages loaded<br><br>
 <img src="https://user-images.githubusercontent.com/91196350/220430073-e0d7439b-1c6b-45d3-a5f9-4efd68cf35ff.jpeg" alt="feed page"  height="400"><br><br>
 this is feed fragment.all pages loaded<br><br>
 <img src="https://user-images.githubusercontent.com/91196350/220430076-eb690719-1407-44d8-b56f-f30a272973b9.jpeg" alt="detail page"  height="400"><br><br>
-this is detail page.you can see all information about country<br><br>
+this is detail page.you can see all information about country<br><br><br><br>
+
+## LICENSE
+
+
+
+```   
+
+MIT License
+
+Copyright (c) 2023 ishak erdoğan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+```
