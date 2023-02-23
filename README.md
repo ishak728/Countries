@@ -1,7 +1,7 @@
 # Countries
 
 I developed this application with kotlin language.<br> 
-If you want to save the data, you can use the shared preference. I used this to save time. if time is greater than 10 I will get data from "room database". Otherwise I will get it using api
+The aim is to learn about countries. For example, you can learn the country's flag, currency, region, capital and language through this application.
 
 ## Major technologies
 
