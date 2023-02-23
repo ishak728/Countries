@@ -5,7 +5,7 @@ The aim is to learn about countries. For example, you can learn the country's fl
 
 ## Major technologies
 
-- MVVM
+- `MVVM`
 - `RxJava`(I pulled data using single class)
 - `Room`(I used three annotations to save: Insert, delete, Query)
 - `Retrofit`(ı used Gson to convert variable)
