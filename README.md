@@ -7,7 +7,7 @@ The aim is to learn about countries. For example, you can learn the country's fl
 
 - MVVM
 - `RxJava`(I pulled data using single class)
-- `Room`(I used three annotations to save: Add, delete, Query)
+- `Room`(I used three annotations to save: Insert, delete, Query)
 - `Retrofit`(ı used Gson to convert variable)
 - `Live data`(I used three live data variables. These are the variable that holds the error, loading and data)
 - `Navigation companent`(For a powerful application, it is necessary to use navigation. Single activity, multiple fragments.)
